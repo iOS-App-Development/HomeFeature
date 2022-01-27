@@ -9,10 +9,16 @@ import UIKit
 public class Settings
 {
     public var name:String = "hello world"
+    public init()
+    {
+    }
 }
 public class UserInfoProvider
 {
     public var name:String = "hello world 1"
+    public init()
+    {
+    }
 }
 
 
