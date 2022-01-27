@@ -21,14 +21,6 @@ public class UserInfoProvider
     }
 }
 
-
-//public struct HomeFeature {
-//
-//
-//    public init() {
-//    }
-//}
-//public typealias PasswordManagementService = ForgottenPasswordServiceProtocol & ResetPasswordServiceProtocol
 public typealias HomeService = HomeServiceProtocol
 public typealias AccountService =  AccountServiceProtocol
 
@@ -49,8 +41,7 @@ public class HomeFeature {
     }
     public func start(on navigationController: UINavigationController)
     {
-        let viewController:SampleViewController = SampleViewController.init(homeService: self.homeService, viaXIB: true)
-//        let viewController:SampleViewController = SampleViewController.init(homeService: self.homeService)
+        let viewController:SampleViewController = SampleViewController.init(homeService: self.homeService)
         navigationController.pushViewController(viewController, animated: true)
     }
 
