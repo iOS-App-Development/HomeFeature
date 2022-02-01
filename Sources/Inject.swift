@@ -4,6 +4,8 @@
 //
 //  Created by Muzammil Peer on 01/02/2022.
 //
+import Foundation
+
 @propertyWrapper
 public struct Inject<Component>{
     
