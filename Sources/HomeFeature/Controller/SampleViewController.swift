@@ -18,6 +18,7 @@ class SampleViewController: UIViewController {
     }
     
     private let homeService: HomeServiceProtocol
+    private let serviceIdentifer = HomeServiceProtocol.self
     
     init(homeService: HomeServiceProtocol) {
         self.homeService = homeService
