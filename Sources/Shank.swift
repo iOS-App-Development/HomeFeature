@@ -15,7 +15,7 @@
 import Foundation
 
 /// A dependency collection that provides resolutions for object instances.
-open class Dependencies {
+public class Dependencies {
     /// Stored object instance factories.
     private var modules = [String: Module]()
     
@@ -30,7 +30,7 @@ open class Dependencies {
     }
     
     /// Assigns the current container to the composition root.
-    open func build() {
+    public func build() {
         Self.root = self
     }
     
