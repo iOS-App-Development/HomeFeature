@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/iOS-App-Development/APIClient.git",
         "state": {
           "branch": "master",
-          "revision": "2736b4dd8beb4f2a1f3cf2f7fb28733177a9853e",
+          "revision": "0546a08c9cd68c32b49df67ead6a7e6d16b41760",
           "version": null
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/iOS-App-Development/SharedModule.git",
         "state": {
           "branch": "master",
-          "revision": "31b2c8251dfc105d348625c06572a032273a57a2",
+          "revision": "88266ef81eee65af2ef384a7493963290a54bde5",
           "version": null
         }
       }
