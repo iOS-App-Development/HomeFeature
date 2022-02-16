@@ -7,8 +7,7 @@
 #if !os(macOS)
 import UIKit
 #endif
-
-import APIClient
+import SharedModule
 //https://www.swiftbysundell.com/tips/handling-view-controllers-that-have-custom-initializers/
 
 class SampleViewController: UIViewController {

@@ -1,6 +1,5 @@
 
-import SharedModule
-import APIClient
+@_exported import SharedModule
 #if !os(macOS)
 import UIKit
 #endif
